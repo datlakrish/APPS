@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="20dp"
+    tools:context=".StartPageActivity">
+
+    <Button
+        android:id="@+id/already_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/register_account_btn"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="20dp"
+        android:text="Already Have Account!"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/register_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/colorAccent"
+        android:padding="20dp"
+        android:text="Need New Account ?"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
